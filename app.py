@@ -13,9 +13,17 @@ z = y[0]
 print(y)
 print(z) """
 
-right_number = input("what number is it")
+""" right_number = input("what number is it ")
 if right_number == "19":
     print("correct")
 else:
-    print("incorrct")
-right_number = "19"
+    print("incorrect") """
+
+""" x = "test"
+print(f"hello {x}") """
+
+number = int(input("even or odd "))
+if (number % 2) == (0):
+    print("even")
+if (number % 2) == (1):
+    print("odd")
