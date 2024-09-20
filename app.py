@@ -29,8 +29,8 @@ if (number % 2) == (1):
     print("odd")
  """
 
-tip = input("how was your excperience? ")
-bill = float(input("what is your total?"))
+tip = input("how was your experience? ")
+bill = float(input("what is your total? "))
 if tip == "bad":
     print("your total is", bill)
 elif tip == "ok":
@@ -39,3 +39,4 @@ elif tip == "good":
     print("your total is", round(bill * 1.20, 2))
 elif tip == "great":
     print("your total is", round(bill * 1.25, 2))
+
