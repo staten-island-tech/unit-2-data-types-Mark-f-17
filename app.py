@@ -29,7 +29,7 @@ if (number % 2) == (1):
     print("odd")
  """
 
-tip = input("how was your experience? ")
+""" tip = input("how was your experience? ")
 bill = float(input("what is your total? "))
 if tip == "bad":
     print("your total is", bill)
@@ -39,4 +39,20 @@ elif tip == "good":
     print("your total is", round(bill * 1.20, 2))
 elif tip == "great":
     print("your total is", round(bill * 1.25, 2))
+ """
 
+""" factornumber = int(input("enter number "))
+factor = []
+for i in range(1, factornumber+1):
+    if factornumber % i == (0):
+        factor.append(i)
+print(factor)
+ """
+
+GCFlist = []
+GCF1 = int(input("enter number "))
+GCF2 = int(input("enter second number "))
+for i in range(1, GCF1+1):
+    if GCF1 % 1 GCF2 % 2 = (0):
+        append(i)
+        print(GCFlist[-1])
