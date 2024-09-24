@@ -53,6 +53,6 @@ GCFlist = []
 GCF1 = int(input("enter number "))
 GCF2 = int(input("enter second number "))
 for i in range(1, GCF1+1):
-    if GCF1 % 1 GCF2 % 2 = (0):
-        append(i)
-        print(GCFlist[-1])
+    if GCF1 % i == 0 and GCF2 % i == 0:
+        GCFlist.append(i)
+print(GCFlist[-1])
